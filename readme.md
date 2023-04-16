@@ -11,14 +11,14 @@ Simulation of the behavior of a group of biological specimens in a closed enviro
 The simulation is implemented using an MVC pattern, and the system operates using a pool of concurrent threads to execute the movement patterns of each individual specimen in the sample.
 
 
-## High Level Components
-* Environment model that contains individuals
-* Thread manager to keep track of individuals and their attributes
-* View to set up, display, and run simulation
-
-
 ## Technologies
 Developed in Java.
+
+
+## High Level Components
+    * Environment model that contains individuals
+    * Thread manager to keep track of individuals and their attributes
+    * View to set up, display, and run simulation
 
 
 ## Class Overview
