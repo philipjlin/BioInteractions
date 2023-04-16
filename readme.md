@@ -6,7 +6,7 @@
 
 
 ## Description
-Simulation of the behavior of a group of biological specimens in a closed environment. Slime Molds are the organisms modeled, and their behavior is influenced by the organisms they come into proximity with, as they will aggregate toward areas with high concentration of chemicals that each individual releases.
+Simulation of the behavior of a group of biological specimens in a closed environment. In this example, slime molds are the organisms modeled, and their behavior is influenced by the organisms they come into proximity with, as they will aggregate toward areas with high concentration of chemicals that each individual releases.
 
 The simulation is implemented using an MVC pattern, and the system operates using a pool of concurrent threads to execute the movement patterns of each individual specimen in the sample.
 
@@ -18,7 +18,8 @@ The simulation is implemented using an MVC pattern, and the system operates usin
 
 
 ## Class Overview
-Domain Objects <br>
+Domain Objects
+
     - Model - model for the environment containing individual slime molds with locations, directions they face, and location and level of phermones they produce. Position, signal, direction, and phermone level are all kept track in 2D arrays, and updated as time passes in the simulation. The simulation speed, size of the environment, the number of slime molds, the amount of phermone produced, and how the phermones propagate are all field that can be modified in the model.
 
     Transient runnable objects are used to update all the fields for as long as the simulation is running. The model includes methods to set up the simulation's initial conditions, and update the model for each step taken. <br>
