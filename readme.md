@@ -29,11 +29,14 @@ Developed in Java.
 
 
 ## Views
-    View - Contains methods to initialize the view grid, as well as setup and update the view grid based on changes to the model. Also has methods to load a saved state or to save the current state.
-    GridJPanel - Swing user interface that renders the environment grid the simulation takes place on.
-    MenuJPanel - Swing user interface that renders the menu for the simulation.
-    NoSlimeMoldJPanel - Swing user interface that defines a cell in the environment grid without an individual slime mold, that has no or any level of phermone.
-    SlimeMoldJPanel - Swing user interface that defines a cell in the environment where an individual slime mold currently is.
+    Main View
+      - View - Contains methods to initialize the view grid, as well as setup and update the view grid based on changes to the model. Also has methods to load a saved state or to save the current state.
+      
+    Swing Interfaces
+      - GridJPanel - renders the environment grid the simulation takes place on.
+      - MenuJPanel - renders the menu for the simulation.
+      - NoSlimeMoldJPanel - defines a cell in the environment grid without an individual slime mold, that has any level of phermone.
+      - SlimeMoldJPanel - defines a cell in the environment that contains an individual slime mold.
 
 
 ## Persistence
