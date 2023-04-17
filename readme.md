@@ -26,8 +26,10 @@ Developed in Java.
         - Model - model for the environment containing individual slime molds with locations, directions they face, and location and level of phermones they produce. Position, signal, direction, and phermone level are all kept track in 2D arrays, and updated as time passes in the simulation. The simulation speed, size of the environment, the number of slime molds, the amount of phermone produced, and how the phermones propagate are all field that can be modified in the model. Transient runnable objects are used to update all the fields for as long as the simulation is running. The model includes methods to set up the simulation's initial conditions, and update the model for each step taken. 
         - StepManager - manages threads that update the model during each step of the simulation. This is achieved using a ThreadExecutor object, which concurrently executes model update methods while the simulation is running, resulting in updates to the GUI. 
    
-   Main
-      - Main - initializes the simulation.
+<br>
+
+    Main
+       - Main - initializes the simulation.
 
 
 ## Views
