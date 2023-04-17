@@ -32,6 +32,8 @@ Developed in Java.
     Main View
       - View - Contains methods to initialize the view grid, as well as setup and update the view grid based on changes to the model. Also has methods to load a saved state or to save the current state.
       
+ <br>
+      
     Swing Interfaces
       - GridJPanel - renders the environment grid the simulation takes place on.
       - MenuJPanel - renders the menu for the simulation.
